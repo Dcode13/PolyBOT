@@ -1,0 +1,37 @@
+# Semua nilai uang dalam USD/pUSD. Paper mode adalah default.
+starting_cash = 11.0
+entry_dollars = 1.0
+minimum_profit = 0.50
+take_profit_roi = 0.50
+growth_balance = 30.0
+growth_entry_dollars = 5.0
+growth_min_probability = 0.90
+# Ambang entry dilonggarkan; ukuran posisi dan batas kerugian tetap.
+minimum_probability = 0.70
+minimum_confidence = 0.70
+minimum_edge = 0.05
+max_position_fraction = 0.18
+max_exposure_fraction = 0.40
+reserve_cash = 2.0
+max_open_positions = 3
+max_long_positions = 1
+max_long_dollars = 2.0
+max_horizon_hours = 720.0
+daily_loss_limit = 1.0
+max_drawdown_fraction = 0.25
+stop_loss_fraction = 0.20
+max_spread = 0.04
+max_slippage_fraction = 0.02
+min_liquidity = 200.0
+min_volume_24h = 25.0
+max_book_age_seconds = 60.0
+poll_seconds = 60
+scan_pages = 5
+max_candidates = 120
+max_scan_seconds = 90.0
+# Eksplorasi hanya untuk simulasi; live tetap memerlukan forecast terkalibrasi.
+paper_entry_mode = "explore"
+paper_exploration_horizon_hours = 6.0
+forecast_path = "forecasts.json"
+max_forecast_age_hours = 24.0
+state_dir = "data"

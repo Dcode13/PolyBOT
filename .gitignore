@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+data/
+forecasts.json
+*.egg-info/
+dist/
+build/
+node_modules/
+.next/
+*.tsbuildinfo
+dashboard/test-results/
+dashboard/playwright-report/

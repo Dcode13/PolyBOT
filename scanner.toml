@@ -1,0 +1,10 @@
+# Hanya untuk /scan Telegram dan python -m polybot.scan.
+# Tidak diterapkan pada /paper_on atau /live_on.
+# Entry $1, minimum profit $0.50, data segar, dan batas modal tetap dari config.toml.
+min_liquidity = 200.0
+min_volume_24h = 25.0
+minimum_probability = 0.70
+minimum_confidence = 0.70
+minimum_edge = 0.05
+max_candidates = 120
+max_scan_seconds = 90.0
